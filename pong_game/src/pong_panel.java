@@ -16,14 +16,14 @@ public class pong_panel extends JPanel implements ActionListener, KeyListener
 {
 	private final static Color BACKGROUND_COLOR = Color.BLACK;
 	private final static int TIMER_DELAY = 5;
-	private final static int BALL_MOVEMENT_SPEED = 2;
+	private final static int BALL_MOVEMENT_SPEED = 2; // Adjust ball speed.
 	
 	GameState gameState = GameState.Initialising;
 	
 	ping_ball ball;
 	Paddle paddle1, paddle2;
 	 
-	private final static int POINTS_TO_WIN = 3;
+	private final static int POINTS_TO_WIN = 3; // Adjust points to win.
 	int player1Score = 0, player2Score = 0;
 	Player gameWinner;
 	  
