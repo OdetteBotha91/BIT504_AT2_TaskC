@@ -2,9 +2,9 @@ import java.awt.Color;
 
 public class ping_ball extends sprite
 {
-	private final static int BALL_WIDTH = 25;
-    private final static int BALL_HEIGHT = 25;
-    private final static  Color BALL_COLOUR = Color.WHITE;
+    private final static int BALL_WIDTH = 30;   // ball size adjusted from 25 to 30
+    private final static int BALL_HEIGHT = 30;	// ball size adjusted from 25 to 30
+    private final static  Color BALL_COLOUR = Color.PINK;	// ball colour adjusted from white to pink
     
     public ping_ball(int panelWidth, int panelHeight)
     {
